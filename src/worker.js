@@ -211,9 +211,12 @@ export default {
 
       const url = new URL(request.url);
       if (url.pathname === '/') {
-        return jsonResponse({
-          service: 'Operational',
-          usage: '/<movie|book|music|game|celebrity>/<subject-id>.jpg',
+        return new Response('Operational', {
+          headers: {
+            'content-type': 'text/plain; charset=utf-8',
+            'access-control-allow-origin': '*',
+            'x-content-type-options': 'nosniff',
+          },
         });
       }
 
