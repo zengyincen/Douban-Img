@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zengyincen/DoubanCover.git"
+    "url": "git+https://github.com/zengyincen/Douban-Img.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zengyincen/DoubanCover/issues"
+    "url": "https://github.com/zengyincen/Douban-Img/issues"
   },
-  "homepage": "https://github.com/zengyincen/DoubanCover#readme",
+  "homepage": "https://github.com/zengyincen/Douban-Img#readme",
   "dependencies": {
     "aws4fetch": "^1.0.20"
   },
