@@ -19,6 +19,13 @@
     "DOUBAN_API_KEY": "0ac44ae016490db2204ce0a042db2916"
   },
   "observability": {
-    "enabled": true
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true
+    }
   }
 }
