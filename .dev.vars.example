@@ -1,0 +1,5 @@
+OSCA_ACCESS_KEY_ID=replace-with-your-osca-ak
+OSCA_SECRET_ACCESS_KEY=replace-with-your-osca-sk
+
+# Optional: only set this if the Douban endpoint requires a bearer token.
+# AUTH_TOKEN=replace-with-your-token
