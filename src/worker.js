@@ -212,7 +212,7 @@ export default {
       const url = new URL(request.url);
       if (url.pathname === '/') {
         return jsonResponse({
-          service: 'dbimg',
+          service: 'Operational',
           usage: '/<movie|book|music|game|celebrity>/<subject-id>.jpg',
         });
       }
