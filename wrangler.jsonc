@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "dover",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-07-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    {
+      "pattern": "dbimg.imnotfound.eu.org",
+      "custom_domain": true
+    }
+  ],
+  "vars": {
+    "OSCA_ENDPOINT": "https://fgws3-ocloud.ihep.ac.cn",
+    "OSCA_BUCKET": "21483-dbimg",
+    "OSCA_REGION": "us-east-1",
+    "OSCA_PREFIX": "dover",
+    "DOUBAN_API_HOST": "frodo.douban.com",
+    "DOUBAN_API_KEY": "0ac44ae016490db2204ce0a042db2916"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

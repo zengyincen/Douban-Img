@@ -1,4 +1,4 @@
-# Dover
+# DoubanCover
 
 A douban book/music/movie/game/celebrity cover image storage deta service.
 

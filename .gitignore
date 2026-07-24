@@ -131,3 +131,8 @@ dist
 data
 .space
 .vercel
+.wrangler/
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.cpuprofile

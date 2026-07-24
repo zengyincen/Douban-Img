@@ -1,3 +1,2 @@
 exports.file = require('./file');
-// exports.deta = require('./deta');
-exports.vercel = require('./vercel');
+exports.deta = require('./deta');
